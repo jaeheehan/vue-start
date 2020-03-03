@@ -1,23 +1,12 @@
 <template>
-<div>
-    <p>
-        {{alertMessage}}
-    </p>
-    {{parentMessage}}
-</div>
+    <div>{{message}}</div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue, Watch } from 'vue-property-decorator'
+import { Component, Prop, Vue, Watch, Emit, Inject } from 'vue-property-decorator'
 
 @Component
 export default class Children extends Vue {
-  @Prop() private parentMessage?: string;
-  private alertMessage?: string;
-
-  @Watch('parentMessage')
-  private update(value: string, oldValue: string) {
-    this.alertMessage = '메시지를 업데이트 했습니다.'
-  }
+  @Inject() public readonly message!: string;
 }
 </script>
