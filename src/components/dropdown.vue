@@ -17,18 +17,18 @@
 </template>
 
 <script lang="ts">
-    import {Vue, Component, Mixins} from 'vue-property-decorator';
-    import toggle from "@/components/toggle.vue";
-    @Component({
-        components:{
-            toggle,
-        }
-    })
-    export default class Dropdown extends Mixins(toggle){
-        mounted(): void {
-            console.log(this)
-        }
+import {Vue, Component, Mixins} from 'vue-property-decorator';
+import toggle from '@/components/toggle.vue';
+@Component({
+    components: {
+        toggle,
     }
+})
+export default class Dropdown extends Mixins(toggle) {
+    public mounted(): void {
+        // console.log(this)
+    }
+}
 </script>
 
 <style>

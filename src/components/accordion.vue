@@ -12,15 +12,15 @@
 </template>
 
 <script lang="ts">
-    import {Vue, Component, Mixins} from 'vue-property-decorator';
-    import toggle from "@/components/toggle.vue";
-    @Component({
-        components:{
-            toggle,
-        }
-    })
-    export default class ToggleBtn extends Mixins(toggle) {
+import {Vue, Component, Mixins} from 'vue-property-decorator';
+import toggle from '@/components/toggle.vue';
+@Component({
+    components: {
+        toggle,
     }
+})
+export default class ToggleBtn extends Mixins(toggle) {
+}
 </script>
 <style>
     .card{
