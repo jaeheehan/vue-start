@@ -9,7 +9,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import count from '@/components/count.vue'
-
+// dd8888
 @Component({
     components: {
         count
