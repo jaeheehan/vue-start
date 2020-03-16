@@ -6,7 +6,7 @@ Vue.use(Vuex);
 interface State {
   count: number;
 }
-// 11111
+// 11111 2222
 const store: StoreOptions<State> = {
   state: {
     count: 0,
