@@ -11,7 +11,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import myCheckbox from '@/components/my-checkbox.vue'
-
+//888888
 @Component({
   components: {
     myCheckbox,
