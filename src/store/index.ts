@@ -6,7 +6,7 @@ Vue.use(Vuex);
 interface State {
   count: number;
 }
-// 테스ㄴ트 입니다.
+// 마스터
 //this is test
 const store: StoreOptions<State> = {
   state: {
