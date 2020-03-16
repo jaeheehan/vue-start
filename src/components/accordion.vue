@@ -14,6 +14,8 @@
 <script lang="ts">
 import {Vue, Component, Mixins} from 'vue-property-decorator';
 import toggle from '@/components/toggle.vue';
+// jaehee12
+// dev123
 // dev1
 // jaehee123 88888
 @Component({
