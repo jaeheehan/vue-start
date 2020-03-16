@@ -15,6 +15,7 @@
 import {Vue, Component, Mixins} from 'vue-property-decorator';
 import toggle from '@/components/toggle.vue';
 // jaehee12
+// jaehee12
 // dev123
 @Component({
     components: {
