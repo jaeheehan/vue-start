@@ -6,6 +6,7 @@ Vue.use(Vuex);
 interface State {
   count: number;
 }
+// 11111 2222
 // 마스터
 //this is test
 const store: StoreOptions<State> = {
